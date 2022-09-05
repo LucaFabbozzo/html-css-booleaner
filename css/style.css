@@ -4,6 +4,24 @@
   margin: 0;
   padding: 0;
 }
+
+h1 {
+  padding-top: 10px;
+}
+
+h5 {
+  padding-bottom: 10px;
+}
+
+/* Contenitore */
+
+.contenitore {
+  width: 57%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+/* Logo e sfondo */
  
 .logo-sfondo img {
   width: 200px;
@@ -11,7 +29,7 @@
 }
 
 .logo-sfondo {
-  height: 100px;
+  height: 85px;
   background-color: #4EA0FF;
   background-image: url(../img/pattern.png);
   background-size: contain;
