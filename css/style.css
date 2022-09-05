@@ -13,6 +13,10 @@ h5 {
   padding-bottom: 10px;
 }
 
+h4 {
+  color: #B0B0B0;
+}
+
 p {
   padding-top: 20px;
 }
@@ -61,6 +65,11 @@ tbody {
   background-color: #4EA0FF;
   background-image: url(../img/pattern.png);
   background-size: contain;
+}
+
+h5.data {
+ color: #B0B0B0;
+ font-size: 12px;
 }
 
 /* corpo del documento */
