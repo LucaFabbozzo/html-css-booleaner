@@ -8,96 +8,95 @@
 /* tag generici */
 
 h1 {
-  padding-top: 10px;
-}
-
-h5 {
-  padding-bottom: 10px;
-  color: #505050;
-}
-
-h4 {
-  color: #B0B0B0;
-  font-weight: lighter;
-}
-
-p {
   padding-top: 20px;
-}
-
-spam {
-  color: #34AFE7;
-}
-
-ul {
-  padding-left: 14px;
-  padding-bottom: 25px;
-}
-
-table {
-  width: 100%;
-  border-collapse: collapse; border-spacing: 0; 
-}
-
-
-thead {
-  color: white;
-  text-align: left;
-  background-color: #1FA9E5;
-}
-
-tbody {
-  background-color: #B2E4F2;
 }
 
 
 
 /* Contenitore */
 
-.contenitore {
-  width: 57%;
-  max-width: 1020px;
+.container {
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-/* Logo e sfondo */
+
+/* intestazione */
  
 .logo-sfondo img {
   width: 200px;
-  padding: 25px 10px;
+  margin-top: 20px;
 }
 
 .logo-sfondo {
   height: 85px;
+  padding: 10px;
   background-color: #4EA0FF;
   background-image: url(../img/pattern.png);
-  background-size: contain;
+  background-size: 35%;
 }
 
-h5.data {
- color: #B0B0B0;
- font-size: 12px;
-}
 
 /* corpo del documento */
 
-p spam {
-  background-color: yellow; 
-  color: black;
+
+main section div {
+  padding-top: 10px;
+  color: gray;
 }
+
+main section spam {
+  color: #34AFE7;
+}
+
+.data {
+  font-size: 0.8rem;
+  color: gray;
+}
+
+main section p {
+  font-size: 0.8rem;
+}
+
 
 main p {
   padding-bottom: 20px;
 }
 
-tbody .riga-centro {
+main ul {
+  padding-left: 14px;
+  padding-bottom: 25px;
+}
+
+main table {
+  width: 100%;
+  border-collapse: collapse; 
+  border-spacing: 0; 
+  margin-bottom: 30px;
+}
+
+
+main table thead {
+  color: white;
+  text-align: left;
+  background-color: #1FA9E5;
+}
+
+main table thead .text {
+  width: 50%;
+}
+
+main table tbody {
+  background-color: #B2E4F2;
+}
+
+main table tbody .riga-centro {
   background-color: white;
 }
 
-.colonna-uno,
-.colonna-due {
-  width: 30%;
-}
+
+
 
 
 /* pie di pagina */
